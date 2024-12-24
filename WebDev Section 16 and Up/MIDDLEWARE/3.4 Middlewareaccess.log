@@ -1,0 +1,30 @@
+::1 - - [12/Dec/2024:05:42:59 +0000] "GET / HTTP/1.1" 200 5 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:46:25 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:46:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:46:34 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:48:13 +0000] "GET / HTTP/1.1" 200 505 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:48:22 +0000] "POST /submit HTTP/1.1" 200 29 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:56:18 +0000] "POST /submit HTTP/1.1" 200 29 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:58:22 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:58:24 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:58:25 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:58:25 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:58:26 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:58:26 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:58:51 +0000] "POST /submit HTTP/1.1" 200 29 "http://localhost:3000/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:05:59:21 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+::1 - - [12/Dec/2024:06:02:08 +0000] "GET / HTTP/1.1" 200 505 "-" "PostmanRuntime/7.43.0"
+::1 - - [12/Dec/2024:06:03:24 +0000] "POST / HTTP/1.1" 404 140 "-" "PostmanRuntime/7.43.0"
+::1 - - [12/Dec/2024:06:03:46 +0000] "POST /submit HTTP/1.1" 200 29 "-" "PostmanRuntime/7.43.0"
+::1 - - [12/Dec/2024:06:04:32 +0000] "GET / HTTP/1.1" 200 505 "-" "PostmanRuntime/7.43.0"
+::1 - - [12/Dec/2024:06:04:56 +0000] "POST /submit HTTP/1.1" 200 29 "-" "PostmanRuntime/7.43.0"
+::1 - - [12/Dec/2024:06:05:06 +0000] "POST /submit HTTP/1.1" 200 29 "-" "PostmanRuntime/7.43.0"
+::1 - - [12/Dec/2024:06:05:27 +0000] "GET / HTTP/1.1" 304 - "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+POST /submit 200 29 - 16.968 ms
+[0mPOST /submit [32m200[0m 17.504 ms - 29[0m
+[0mGET / [36m304[0m 2.129 ms - -[0m
+[0mPOST /submit [32m200[0m 2.519 ms - 29[0m
+::1 - POST /submit HTTP/1.1 200 29 - 19.303 ms
+::1 - GET / HTTP/1.1 304 - - 4.013 ms
+::1 - GET / HTTP/1.1 304 - - 0.822 ms
+::1 - GET / HTTP/1.1 304 - - 0.656 ms

@@ -1,0 +1,27 @@
+<%- include("partials/header.ejs") %>
+
+  <h1> Hello Welcome to my Blog!!</h1>
+  <form action="/submit" method="POST">
+      <input name="name" type="text"  placeholder="Name" required/>
+      <input name="email" type="text" placeholder="Email" required/>
+      <textarea name="text" placeholder="Place for your thoughts!" required></textarea>
+      <input type="submit" value="SUBMIT" />
+  </form>
+
+
+<div class="blogs">
+  <h2>My past blogs!</h2>
+  <% if (locals.message) { %>
+    <h3 font-size="0.5rem" style="color: red;">Post Deleted!</h3>
+    <% } %>
+  
+  <%if(locals.blog){ for(let post=0;post<blog.length;post++) {%>
+    <div class="content">
+      <p><%= blog[post].content %></p>
+      <sign class="signature"><p>Post#<%= post+1 %></p><p><a href=<%= "mailto:"+blog[post].signature.email %>><%= blog[post].signature.name %></a> </p> <p> <%= blog[post].signature.time %></p><p><a href=<%= "/deleted/"+post  %>>Delete</a></p></sign>
+    </div>
+  <% }} else{%>
+    <div class="content"><p>No content here yet!</p></div>
+  <% } %>
+</div>
+<%- include("partials/footer.ejs") %>
