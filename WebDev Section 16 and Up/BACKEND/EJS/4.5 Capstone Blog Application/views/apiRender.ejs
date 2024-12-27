@@ -1,0 +1,9 @@
+<%- include('partials/header.ejs') %>
+<h2>Response from the Bored API:</h2>
+<ul>
+    <% data.forEach((item) => { %>
+        <li><%= item %></li>
+    <% }) %>
+    
+</ul>
+<%- include('partials/footer.ejs') %>

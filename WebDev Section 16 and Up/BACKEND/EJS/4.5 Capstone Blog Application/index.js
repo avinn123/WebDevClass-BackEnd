@@ -20,6 +20,44 @@ app.get("/delete",(req,res) => {
     res.render("postDelete.ejs");
 });
 
+app.get("/apiCall",(req,res) => {
+    let activityArray = [];
+    fetch('https://bored-api.appbrewery.com/filter?participants=2&type=social')
+    .then(response => {
+        
+        return  response.json(); // Parse the response data as JSON
+        
+    })
+    .then(data => {
+        // Process the response data here
+        
+        data.forEach((item) => {
+            
+            activityArray.push(item.activity);
+        })
+        console.log(activityArray);
+        if(activityArray.length > 0){
+            res.render('apiRender.ejs',{data:activityArray})
+           }
+        else{
+            res.send("Too many Requests Try Later!!");
+        }
+
+        
+        
+        // console.log(data); // Example: Logging the data to the console
+    })
+
+    .catch(error => {
+        // Handle any errors here
+        console.error(error); // Example: Logging the error to the console
+    });
+    console.log(activityArray);
+    
+     
+});
+
+
 app.post("/deleted",(req,res) => {
     
     let postToDelete = req.body.postToDelete;
